@@ -19,6 +19,6 @@ describe("Message class", function() {
     let commands = [new Command('STATUS_CHECK'), new Command('MOVE', 20)];
     let message = new Message('Another message!', commands);
     expect(message.commands).toEqual(commands);
-  });
+  }); 
 
 });
